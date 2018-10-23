@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../img/back.jpg);
+  background-color: #cccccc;
+  background-attachment: fixed;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 0px;
+  text-align: center;
+}
+
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+  opacity: 0.85;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+header {
+  color:  white;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  background: url(../img/dota_logo.png) no-repeat left;
+  background-size: contain;
+  padding-left: 45px;
+  background-image: url(../img/back.jpg) no-repeat center top;
+}
+h2 {
+  text-align: center;
+}
+.content {
+  color: #fff;
+  background: #000;
+  margin: 50px auto;
+  width: 800px;
+  border-radius: 10px;
+  display: block;
+}
+footer {
+  background: #555;
+  color: #f1f1f1;
+  opacity: 0.85;
+  text-align: center;
+}
+.qw2 {
+  text-align: center;
+}
