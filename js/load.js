@@ -10,7 +10,7 @@ function loadJson() {
             var text="";
             var i;
             for (i=0; i < jsonText.length; i++) {
-                text += jsonText[i].id + "<br>";
+                text += "<div>" + jsonText[i].id + "</div>";
             }
             document.getElementById("qw1").innerHTML = text;
         }
